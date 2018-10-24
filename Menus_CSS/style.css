@@ -1,0 +1,177 @@
+/* MENU 1 */
+
+#nav1 {
+  width: 600px;
+  height: 40px;
+  border : 6px solid #FFFFFF;
+  box-shadow: 1px 1px 5px 1px;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #696969;
+}
+
+/* Permet de gérer le survol des liens */
+#nav1 li a:hover, #nav1 li a:focus, #nav1 li a:active {
+  background: black;
+}
+
+#nav1 li a {
+  display: block;
+  color: white;
+  font: 1em "Trebuchet MS", Arial, sans-serif;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 10px;
+}
+
+#nav1 li {
+  display: inline-block;
+  border: none;
+}
+
+
+/* MENU 2 */
+
+
+#nav2 {
+  width: 600px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-bottom: 3px solid #5B6264;
+}
+
+/* Permet de gérer le survol des liens */
+#nav2 li a:hover, #nav2 li a:focus, #nav2 li a:active {
+  background: #E0EDF2;
+  color: #54B6D4;
+}
+
+#nav2 li a {
+  display: block;
+  background: #54B6D4;
+  color: #E0EDF2;
+  font: 1em "Trebuchet MS", Arial, sans-serif;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 18px;
+  margin-right: 7px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#nav2 li {
+  display: inline-block;
+  border: none;
+}
+
+
+/* MENU 3 */
+
+
+#nav3 {
+  width: 600px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#nav3 li {
+  background: #8E3557;
+  line-height: 32px;
+  padding: 4px 18px;
+  margin-right: 1px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: inline-block;
+  border: none;
+}
+
+/* Un élément sur deux */
+#nav3 li:nth-child(2n+1) {
+  background: #ADCF4F
+}
+
+/* Permet de gérer le survol des liens */
+#nav3 li:hover, #nav3 li:focus, #nav3 li:active {
+  background: #C2DEA1;
+  color: white;
+}
+
+#nav3 a {
+  color: white;
+  text-decoration: none;
+}
+
+/* MENU 4 */
+
+
+#nav4 {
+  width: 600px;
+  height: 40px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #1E1F20;
+}
+
+/* Permet de gérer le survol des liens */
+#nav4 li a:hover, #nav4 li a:focus, #nav4 li a:active {
+  background: #626667;
+}
+
+#nav4 li a {
+  display: block;
+  color: white;
+  font: 1em "Trebuchet MS", Arial, sans-serif;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 10px;
+  margin-left: 7px;
+}
+
+#nav4 li {
+  display: inline-block;
+  border: none;
+}
+
+
+/* MENU 5 */
+
+#nav5 {
+  width: 600px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #1E1F20;
+}
+
+/* Permet de gérer le survol des liens */
+#nav5 li a:hover, #nav5 li a:focus, #nav5 li a:active {
+  color: #B9121B;
+  border-bottom: 5px solid red;
+  display: inline;
+}
+
+#nav5 li a {
+  display: block;
+  color: white;
+  font: 1em "Trebuchet MS", Arial, sans-serif;
+  line-height: 39px;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 10px;
+  margin-left: 7px;
+}
+
+#nav5 li {
+  display: inline-block;
+  border: none;
+}

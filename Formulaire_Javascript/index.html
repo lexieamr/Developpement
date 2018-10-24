@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Exercice Javascript</title>
+	<style>
+		body{font-family:arial,verdana;}
+		#content{width:450px;border:1px solid black;padding:10px;margin:auto;text-align:left;}
+		p, li{font-size:11px;}
+		ul{list-style: none;}
+		.small{font-size:10px;font-style:italic;}
+	</style>
+</head>
+<body>
+	<div id="content">
+		<h2>Formulaire d'inscription à la POEC "Concepteur Développeur Web"</h2>
+		<form id="formulaire_inscription">
+			<table>
+				<tr>
+					<td>
+						<p>
+							Nom du stagiaire
+						</p>
+					</td>
+					<td>
+						<input type="text" id="nom"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>
+							Prénom du stagiaire
+						</p>
+					</td>
+					<td>
+						<input type="text" class="prenom"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>
+							Date de naissance :
+							<span class="small">format JJ/MM/AAAA</span>
+						</p>
+					</td>
+					<td>
+						<input type="text" value="JJ/MM/AAAA" name="date_naissance"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>
+							Numéro de téléphone :
+						</p>
+					</td>
+					<td>
+						<input type="text" id="telephone"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>
+							Diplôme précédent :
+						</p>
+					</td>
+					<td>
+						<select>
+							<option value="" selected="selected"></option>
+							<option value="Baccalauréat général">Baccalauréat général</option>
+							<option value="Baccalauréat technologique">Baccalauréat technologique</option>
+							<option value="Diplôme universitaire">Diplôme universitaire</option>
+							<option value="Autre">Autre</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>
+							Langages de programmation déjà connus :
+						</p>
+					</td>
+					<td>
+						<ul>
+							<li><input type="checkbox" name="langage" value="HTML" /> HTML</li>
+							<li><input type="checkbox" name="langage" value="Javascript" /> Javascript</li>
+							<li><input type="checkbox" name="langage" value="CSS" /> CSS</li>
+							<li><input type="checkbox" name="langage" value="PHP" /> PHP</li>
+							<li><input type="checkbox" name="langage" value="Autre" /> Autre</li>
+							<li><input type="checkbox" name="langage" value="Aucun" /> Aucun</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="button" id="valider" value="Valider l'inscription" />
+					</td>
+				</tr>
+			</table>
+		</form>
+		<br /><hr /><br />
+		<div id="recapitulatif">
+			<h2>Récapitulatif</h2>
+			<p>
+				Nom du stagiaire : <span id="recap_nom"></span><br />
+				Prénom du stagiaire : <span id="recap_prenom"></span><br />
+				Téléphone du stagiaire : <span id="recap_tel"></span><br />
+				Date de naissance du stagiaire : <span id="recap_date"></span><br />
+				Dernier diplôme acquis : <span id="recap_diplome"></span><br />
+				Langages de programmation déjà connus : <span id="recap_langages"></span><br />
+			</p>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>

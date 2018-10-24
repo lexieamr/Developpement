@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulaire simple</title>
+  </head>
+
+  <body>
+
+    <header></header>
+
+    <form>
+    <fieldset>
+      <p class="categorie">vos coordonnées</p>
+      <p>
+        <label id="champs">Nom <span>*</span></label/>
+        <input type="text" name="nom"/>
+      </p>
+      <p>
+        <label id="champs">Prénom <span>*</span></label/>
+        <input type="text" name="prenom"/>
+      </p>
+      <p>
+        <label id="champs">Mail <span>*</span></label/>
+        <input type="text" name="mail"/>
+      </p><hr/>
+
+      <p class="categorie">votre message</p>
+      <p>
+        <label id="champs">Type de demande <span>*</span></label/>
+        <select name="demande">
+          <option value="generale">Générale</option>
+          <option value="recrutement">Recrutement</option>
+          <option value="informations">Demande d'informations</option>
+        </select>
+      </p>
+      <p>
+        <label id="champs">Sujet <span>*</span></label/>
+        <input type="text" name="sujet"/>
+      </p>
+      <p>
+        <label id="champs">Message <span>*</span></label/>
+        <textarea name="textarea" id="message"></textarea>
+      </p><hr/>
+
+      <p id="line"><input id="submit" ype="submit" value="Soumettre"/></p>
+    </fieldset>
+    </form>
+
+  </body>
+</html>
